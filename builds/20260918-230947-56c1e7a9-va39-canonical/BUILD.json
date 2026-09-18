@@ -1,6 +1,5 @@
 {
   "SHA256SUMS": [
-    "2cbbde393b5b3ec5160a604a1392f4ab30b4069c2b6f1f71122febe10441f63f  BUILD.json",
     "e817f1d467c75b16913078549bc59810be5c859c419887ec44b92c940f2a3156  Image.xz",
     "2053f47834d3c1853ad7c2a0c0b115c28917a00ae899dd284e7c9c595b377001  boot.cmd",
     "413f89afd46ebb3b89830c85a22319db9e06f2ade7f590c980ea766fbddcdd55  boot.scr",
@@ -80,6 +79,7 @@
     "tool": "scripts/publish-7.3-artifacts.py"
   },
   "repo": "https://github.com/nickyg666/orangepi-zero3w-7.3-artifacts/tree/main/builds/20260918-230947-56c1e7a9-va39-canonical",
+  "sha256_policy": "SHA256SUMS covers payload files; BUILD.json excluded (it embeds the list)",
   "size": 41465864,
   "va_bits": "39"
 }
