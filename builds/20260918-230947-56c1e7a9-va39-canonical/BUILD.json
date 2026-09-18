@@ -28,6 +28,7 @@
     }
   },
   "build_state": "DONE rc=2 2026-09-18 17:33:57",
+  "build_state_note": "build_state is the tail of /tmp/kdir-builds/Image-dtbs.state as of publish time; it is not proof that THIS Image came from that run \u2014 image.md5 + image.mtime are the identity",
   "config_file": {
     "file": "config-7.3-19b8072e.gz",
     "lines": 11918,
@@ -51,6 +52,16 @@
     "mtime": "2026-09-16T19:44:14+00:00",
     "path": "/home/host/kernel-trees/host-build/mainline-7.3/arch/arm64/boot/Image",
     "size": 41465864
+  },
+  "kdir_build_states": {
+    "Image-dtbs.state": "DONE rc=2 2026-09-18 17:33:57",
+    "Image.state": "DONE rc=2 2026-09-18 15:26:44",
+    "drivers-clk-sunxi-ng-ccu-sun60iw2-cpupll.o-drivers-clk-sunxi-ng-ccu-sun60iw2.o.state": "DONE rc=2 2026-09-18 18:06:27",
+    "drivers-clk-sunxi-ng-ccu-sun60iw2.o.state": "DONE rc=2 2026-09-18 17:22:46",
+    "drivers-pinctrl-sunxi-built-in.a.state": "DONE rc=0 2026-09-18 18:38:49",
+    "drivers-pinctrl-sunxi-pinctrl-sun60iw2.o-drivers-pinctrl-sunxi-pinctrl-sun60iw2-r.o.state": "DONE rc=0 2026-09-18 18:02:29",
+    "drivers-pinctrl-sunxi-pinctrl-sun60iw2.o.state": "DONE rc=0 2026-09-18 19:14:13",
+    "drivers-pinctrl-sunxi-pinctrl-sunxi-bsp.o.state": "DONE rc=2 2026-09-18 18:38:20"
   },
   "label": "va39-canonical",
   "magic": "1f2003d5",
