@@ -29,10 +29,17 @@
   },
   "build_state": "DONE rc=2 2026-09-18 17:33:57",
   "build_state_note": "build_state is the tail of /tmp/kdir-builds/Image-dtbs.state as of publish time; it is not proof that THIS Image came from that run \u2014 image.md5 + image.mtime are the identity",
+  "config_embedded": {
+    "file": "config-embedded-image.gz",
+    "lines": 11918,
+    "sha256": "b91e1c2a79b61fe6ee4a9fa374cb74e604a306dc6d4c6d17d8a7139480ea8b4d",
+    "source": "scripts/extract-ikconfig <Image>"
+  },
   "config_file": {
-    "file": "config-7.3-19b8072e.gz",
+    "file": "config-7.3-tree-19b8072e.gz",
     "lines": 11918,
     "md5": "19b8072e1666a4306b1cca9cd0bc2578",
+    "note": "live KDIR/.config at publish time; NOT necessarily the Image's config",
     "size": 319951
   },
   "config_lines": 4845,
