@@ -6,8 +6,8 @@
     "292803832dbb6d268b1e64b0a9f458072fceb0b3d7e27d534b99f3ab929a35ef  boot.scr",
     "19a411d413cf61b8a8a2ee8353f15a207c5a2c072d9969a0d99ee1a664edec2d  config-7.3-tree-45a82279.gz",
     "a1fe489317aaed396ab98e8ca6d0178a906228d276c69a97f419c5a7ce182ef4  config-embedded-image.gz",
-    "fc52ac9fe7994a0958a55dddb13eb6289d48791c9b1cecad2beb4fe13d6852f6  modules-small-va39.tar.gz",
-    "a372a53ba072f017dc6209e9795f18f341e5b7188d694724cb228b10f4750113  modules-va39.tar.gz",
+    "95e550246e4587de1f5083e875680fe2b9d62013c45bceb451221ec6a3049f5d  modules-small-va39.tar.gz",
+    "5cbe1f33b3550502eceae8a6bb362613ede4a8c28622f815393641a20d23ced1  modules-va39.tar.gz",
     "33e2328e4e2008117621d88308c1889ebc8d7a855b9f6d3bd2f61f1c5b5d78ee  sun60i-a733-orangepi-zero3w.dtb"
   ],
   "aic_firmware": {
@@ -18,6 +18,14 @@
     "sha256": "274a7ebd1b0fdbe9013679798f4e8c8c1eb5a0f74bec8d3b999d93b56c8f7941",
     "size": 807013,
     "source": "/home/host/opikernel/stage/7.3-stage/aic8800-fw.tar.gz"
+  },
+  "amended": {
+    "added": [
+      "modules-small-va39.tar.gz",
+      "modules-va39.tar.gz"
+    ],
+    "at": "2026-09-20T23:24:40+00:00",
+    "by": "scripts/publish-7.3-artifacts.py --amend-extras"
   },
   "arch_sunxi": "y",
   "boot": {
@@ -82,6 +90,28 @@
   "label": "",
   "magic": "1f2003d5",
   "md5": "eff8af1141f8a94d62317e9a79dcd1fe",
+  "module_bundle_modules-small-va39.tar.gz": {
+    "extract_at": "/",
+    "file": "modules-small-va39.tar.gz",
+    "kernel_release": "7.3/3c9edd56",
+    "note": "built from the same tree as Image eff8af1141f8",
+    "powervr_ko_form": "stripped",
+    "powervr_ko_md5": "3c9edd565a77665ad55abb3c7bf47ec3",
+    "sha256": "95e550246e4587de1f5083e875680fe2b9d62013c45bceb451221ec6a3049f5d",
+    "size": 1573922,
+    "source": "/home/host/opikernel/stage/7.3-stage/deploy-va39/modules-small-va39.tar.gz"
+  },
+  "module_bundle_modules-va39.tar.gz": {
+    "extract_at": "/",
+    "file": "modules-va39.tar.gz",
+    "kernel_release": "7.3/3c9edd56",
+    "note": "built from the same tree as Image eff8af1141f8",
+    "powervr_ko_form": "stripped",
+    "powervr_ko_md5": "3c9edd565a77665ad55abb3c7bf47ec3",
+    "sha256": "5cbe1f33b3550502eceae8a6bb362613ede4a8c28622f815393641a20d23ced1",
+    "size": 23265062,
+    "source": "/home/host/opikernel/stage/7.3-stage/deploy-va39/modules-va39.tar.gz"
+  },
   "modules": {
     "modules-small-va39.tar.gz": {
       "sha256": "fc52ac9fe7994a0958a55dddb13eb6289d48791c9b1cecad2beb4fe13d6852f6",
