@@ -2,3 +2,4 @@
 - `20260920-072325-74090621`  Image md5 `740906214c413cf438973eacabd8445c`  41666568 B  VA_BITS=39 EFI_STUB=(absent)  build state: `DONE rc=0 2026-09-19 13:56:32`  (2026-09-20T07:23:40+00:00)
 - 2026-09-20T07:26Z cleanup: dropped 4 duplicate/broken payload dirs for Image 740906214c41 (one had a 0-byte boot.scr staged from a truncated STAGE/boot.scr, three were retries from the publisher fix); canonical payload = 20260920-072325-74090621
 - `20260920-105908-0c9ee522`  Image md5 `0c9ee52216c631656c7dc0f5109a2ea9`  41666568 B  VA_BITS=39 EFI_STUB=(absent)  build state: `DONE rc=0 2026-09-19 13:56:32`  (2026-09-20T10:59:26+00:00)
+- `20260920-143001-3056d664`  Image md5 `3056d664234563b6f4bd833446c93009`  41666568 B  VA_BITS=39 EFI_STUB=(absent)  build state: `DONE rc=0 2026-09-19 13:56:32`  (2026-09-20T14:30:18+00:00)
