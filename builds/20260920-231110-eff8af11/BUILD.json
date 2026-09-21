@@ -8,7 +8,7 @@
     "a1fe489317aaed396ab98e8ca6d0178a906228d276c69a97f419c5a7ce182ef4  config-embedded-image.gz",
     "95e550246e4587de1f5083e875680fe2b9d62013c45bceb451221ec6a3049f5d  modules-small-va39.tar.gz",
     "5cbe1f33b3550502eceae8a6bb362613ede4a8c28622f815393641a20d23ced1  modules-va39.tar.gz",
-    "33e2328e4e2008117621d88308c1889ebc8d7a855b9f6d3bd2f61f1c5b5d78ee  sun60i-a733-orangepi-zero3w.dtb"
+    "91b92f65aee2a15ccfad17b44fb885c5c98426207ed1bdb38f25005d12acb606  sun60i-a733-orangepi-zero3w.dtb"
   ],
   "aic_firmware": {
     "entries": 12,
@@ -21,10 +21,9 @@
   },
   "amended": {
     "added": [
-      "modules-small-va39.tar.gz",
-      "modules-va39.tar.gz"
+      "sun60i-a733-orangepi-zero3w.dtb"
     ],
-    "at": "2026-09-20T23:24:40+00:00",
+    "at": "2026-09-21T04:41:16+00:00",
     "by": "scripts/publish-7.3-artifacts.py --amend-extras"
   },
   "arch_sunxi": "y",
@@ -58,12 +57,11 @@
   "config_lines": 4847,
   "drm_powervr": "m",
   "dtb": {
-    "magic": "d00dfeed",
-    "md5": "ca1d9c69421b2992a39f2832e246377d",
-    "mtime": "2026-09-20T22:36:25+00:00",
-    "path": "sun60i-a733-orangepi-zero3w.dtb",
-    "size": 207631,
-    "source": "/home/host/kernel-trees/host-build/mainline-7.3/arch/arm64/boot/dts/allwinner/sun60i-a733-orangepi-zero3w.dtb"
+    "file": "sun60i-a733-orangepi-zero3w.dtb",
+    "note": "DTB refreshed from STAGE: dedupe keys on the Image md5 only, so a DTB-only fix (e.g. pinctrl interrupt-parent) is otherwise never re-published and the cloud keeps the pre-fix DTB forever",
+    "sha256": "91b92f65aee2a15ccfad17b44fb885c5c98426207ed1bdb38f25005d12acb606",
+    "size": 207647,
+    "source": "/home/host/opikernel/stage/7.3-stage/boot/mainline/sun60i-a733-orangepi-zero3w.dtb"
   },
   "efi_stub": "(absent)",
   "image": {
