@@ -1,0 +1,178 @@
+{
+  "SHA256SUMS": [
+    "cb974d86ef07ea4c1913d22ddb7b5f8ef2c7dd153d6534f32c31846792f204ef  Image.xz",
+    "274a7ebd1b0fdbe9013679798f4e8c8c1eb5a0f74bec8d3b999d93b56c8f7941  aic8800-fw.tar.gz",
+    "e1571f7a6f2769f18d597079b37ff21f42342b2820b115d1095f77cdb652d975  boot.cmd",
+    "d7922c19d0f69396004013cfb6174f51cec629090e32bec9a86904c3c3b733aa  boot.scr",
+    "44f69bb4c76269a8dd849f793cbe4b3b97bb34d4d6bd03492c207742b9fa5d30  config-7.3-tree-5e044b9c.gz",
+    "2f3702b9b811f625a04f06a21dd482f34b49596300b9df7f9abff4057ada445f  config-embedded-image.gz",
+    "95e550246e4587de1f5083e875680fe2b9d62013c45bceb451221ec6a3049f5d  modules-small-va39.tar.gz",
+    "5cbe1f33b3550502eceae8a6bb362613ede4a8c28622f815393641a20d23ced1  modules-va39.tar.gz",
+    "49a3552417f843dc5d0a4b0e07653b26a82e9b978bab349a8d388d7840075c0e  sun60i-a733-orangepi-zero3w.dtb"
+  ],
+  "aic_firmware": {
+    "entries": 12,
+    "extract_at": "/",
+    "file": "aic8800-fw.tar.gz",
+    "install_path": "/lib/firmware/aic8800D80/",
+    "sha256": "274a7ebd1b0fdbe9013679798f4e8c8c1eb5a0f74bec8d3b999d93b56c8f7941",
+    "size": 807013,
+    "source": "/home/host/opikernel/stage/7.3-stage/aic8800-fw.tar.gz"
+  },
+  "arch_sunxi": "y",
+  "boot": {
+    "boot.cmd": {
+      "magic": "73657465",
+      "md5": "98a312aef2ef150bd9286bb78d5fcd0a",
+      "size": 392
+    },
+    "boot.scr": {
+      "magic": "27051956",
+      "md5": "a03b4451474d9bb47f292ec3c05c7d2d",
+      "size": 464
+    }
+  },
+  "boot_cp_b": {
+    "boot.cmd": {
+      "cp_b_len": 41666568,
+      "cp_b_len_hex": "0x27BC808",
+      "dst_end": "0x429bc808",
+      "image_size": 41707528,
+      "matches_image_size": false,
+      "under_32bit_ceiling": true
+    },
+    "boot.scr": {
+      "cp_b_len": 41707528,
+      "cp_b_len_hex": "0x27C6808",
+      "dst_end": "0x429c6808",
+      "image_size": 41707528,
+      "matches_image_size": true,
+      "under_32bit_ceiling": true
+    },
+    "coherent": true
+  },
+  "build_state": "DONE rc=0 2026-09-25 22:54:04",
+  "build_state_note": "build_state is the tail of /tmp/kdir-builds/Image-dtbs.state as of publish time; it is not proof that THIS Image came from that run \u2014 use image.md5 + image.mtime as the identity",
+  "config_embedded": {
+    "file": "config-embedded-image.gz",
+    "lines": 11922,
+    "sha256": "2f3702b9b811f625a04f06a21dd482f34b49596300b9df7f9abff4057ada445f",
+    "source": "scripts/extract-ikconfig <Image>"
+  },
+  "config_file": {
+    "file": "config-7.3-tree-5e044b9c.gz",
+    "lines": 11922,
+    "md5": "5e044b9cbb8f947f4df3145259b2ed55",
+    "note": "live KDIR/.config at publish time; NOT necessarily the Image's config",
+    "size": 319951
+  },
+  "config_lines": 4846,
+  "drm_powervr": "m",
+  "dtb": {
+    "magic": "d00dfeed",
+    "md5": "b27840c0d3b987427ca63730ae5aa73f",
+    "mtime": "2026-09-26T02:53:35+00:00",
+    "path": "sun60i-a733-orangepi-zero3w.dtb",
+    "size": 207535,
+    "source": "/home/host/kernel-trees/host-build/mainline-7.3/arch/arm64/boot/dts/allwinner/sun60i-a733-orangepi-zero3w.dtb"
+  },
+  "efi_stub": "(absent)",
+  "image": {
+    "magic": "1f2003d5",
+    "md5": "5777a4bf287d9d4e9ca005c3e44155e9",
+    "mtime": "2026-09-26T02:54:04+00:00",
+    "path": "/home/host/kernel-trees/host-build/mainline-7.3/arch/arm64/boot/Image",
+    "size": 41707528
+  },
+  "irqchip_wakeupgen": {
+    "in_image": 1,
+    "in_modules": {
+      "modules-small-va39.tar.gz": 0,
+      "modules-va39.tar.gz": 0
+    },
+    "match_string": "sunxi-wakeupgen",
+    "present": true
+  },
+  "kdir_build_states": {
+    "Image-dtbs-modules.state": "DONE rc=0 2026-09-24 04:27:19",
+    "Image-dtbs.state": "DONE rc=0 2026-09-25 22:54:04",
+    "Image.state": "DONE rc=0 2026-09-25 22:31:20",
+    "arch-arm64-boot-dts-allwinner-sun60i-a733-orangepi-zero3w.dtb.state": "DONE rc=2 2026-09-25 22:03:39",
+    "drivers-base-core.o-Image-dtbs.state": "DONE rc=0 2026-09-25 20:37:01",
+    "drivers-base-dd.o-Image-dtbs.state": "DONE rc=0 2026-09-25 18:54:45",
+    "drivers-clk-sunxi-ng-ccu-sun60iw2-cpupll.o-drivers-clk-sunxi-ng-ccu-sun60iw2.o.state": "DONE rc=2 2026-09-18 18:06:27",
+    "drivers-clk-sunxi-ng-ccu-sun60iw2.o.state": "DONE rc=2 2026-09-18 17:22:46",
+    "drivers-i2c-busses-i2c-mv64xxx.o-Image-dtbs.state": "DONE rc=0 2026-09-25 20:58:47",
+    "drivers-i2c-busses-i2c-mv64xxx.o-Image.state": "DONE rc=0 2026-09-24 11:11:58",
+    "drivers-i2c-busses-i2c-mv64xxx.o-drivers-power-axp2101-i2c.o-Image-dtbs.state": "DONE rc=2 2026-09-25 04:57:43",
+    "drivers-i2c-i2c-core-base.o-Image-dtbs.state": "DONE rc=0 2026-09-25 18:40:58",
+    "drivers-i2c-i2c-core-of.o-Image-dtbs.state": "DONE rc=0 2026-09-25 05:49:44",
+    "drivers-i2c-i2c-core-of.o-drivers-power-axp2101-i2c.o-Image-dtbs.state": "DONE rc=0 2026-09-25 05:21:42",
+    "drivers-mmc-host-sunxi-mmc.o-drivers-i2c-busses-i2c-mv64xxx.o-Image-dtbs.state": "DONE rc=0 2026-09-24 20:58:13",
+    "drivers-net-wireless-realtek-aic8800-aic8800_sdio.o.state": "DONE rc=2 2026-09-18 19:50:10",
+    "drivers-of-property.o-Image-dtbs.state": "DONE rc=0 2026-09-24 23:46:19",
+    "drivers-pinctrl-sunxi-built-in.a.state": "DONE rc=0 2026-09-18 18:38:49",
+    "drivers-pinctrl-sunxi-pinctrl-sun60iw2.o-drivers-pinctrl-sunxi-pinctrl-sun60iw2-r.o.state": "DONE rc=0 2026-09-18 18:02:29",
+    "drivers-pinctrl-sunxi-pinctrl-sun60iw2.o.state": "DONE rc=0 2026-09-18 19:14:13",
+    "drivers-pinctrl-sunxi-pinctrl-sunxi-bsp.o.state": "DONE rc=0 2026-09-18 19:47:47",
+    "drivers-power-axp2101-i2c.o-Image-dtbs.state": "DONE rc=0 2026-09-25 12:22:56",
+    "drivers-power-axp2101-regulator.o-Image-dtbs.state": "DONE rc=0 2026-09-25 21:30:10",
+    "dtbs.state": "DONE rc=0 2026-09-25 22:44:25",
+    "modules.state": "DONE rc=0 2026-09-19 14:19:32",
+    "pinctrl-irq-guard-Image-dtbs-modules.state": "DONE rc=2 2026-09-20 10:16:19"
+  },
+  "label": "",
+  "magic": "1f2003d5",
+  "md5": "5777a4bf287d9d4e9ca005c3e44155e9",
+  "module_bundles": {
+    "have_bundle": true,
+    "kdire_powervr_md5": "3a7101563b16f67da7d487a852453549",
+    "kdire_powervr_md5_stripped": "3c9edd565a77665ad55abb3c7bf47ec3",
+    "kdire_powervr_mtime": "2026-09-23T23:37:18+00:00",
+    "kdire_powervr_path": "/home/host/kernel-trees/host-build/mainline-7.3/drivers/gpu/drm/imagination/powervr.ko",
+    "modules-small-va39.tar.gz": {
+      "md5": "e3f24cca45b2d8d7a46f733254beda8f",
+      "mtime": "2026-09-20T23:21:55+00:00",
+      "path": "/home/host/opikernel/stage/7.3-stage/deploy-va39/modules-small-va39.tar.gz",
+      "powervr_ko_form": "stripped",
+      "powervr_ko_match": true,
+      "powervr_ko_md5": "3c9edd565a77665ad55abb3c7bf47ec3",
+      "size": 1573922
+    },
+    "modules-va39.tar.gz": {
+      "md5": "2dc008176f9a22de19cb0aba3d3599ed",
+      "mtime": "2026-09-20T23:23:59+00:00",
+      "path": "/home/host/opikernel/stage/7.3-stage/deploy-va39/modules-va39.tar.gz",
+      "powervr_ko_form": "stripped",
+      "powervr_ko_match": true,
+      "powervr_ko_md5": "3c9edd565a77665ad55abb3c7bf47ec3",
+      "size": 23265062
+    }
+  },
+  "modules": {
+    "modules-small-va39.tar.gz": {
+      "sha256": "95e550246e4587de1f5083e875680fe2b9d62013c45bceb451221ec6a3049f5d",
+      "size": 1573922
+    },
+    "modules-va39.tar.gz": {
+      "sha256": "5cbe1f33b3550502eceae8a6bb362613ede4a8c28622f815393641a20d23ced1",
+      "size": 23265062
+    },
+    "vermagic": {
+      "aic_load_fw.ko": "7.3.0-rc2-dirty SMP preempt mod_unload aarch64",
+      "powervr.ko": "7.3.0-rc2-dirty SMP preempt mod_unload aarch64"
+    }
+  },
+  "mtime": "2026-09-26T02:54:04+00:00",
+  "pinctrl_sun60iw2": "y",
+  "publisher": {
+    "boot_cmd": "setenv bootargs root=PARTUUID=486ea4ae-01 rootfstype=ext4 rootwait rw earlycon=uart,mmio32,0x2500000 console=ttyS0,115200 modprobe.blacklist=aic8800_btlpm loglevel=7; ext4load mmc 0:1 0x41000000 boot/mainline/Image; cp.b 0x41000000 0x40200000 0x027C6808; ext4load mmc 0:1 0x43000000 boot/mainline/sun60i-a733-orangepi-zero3w.dtb; fdt addr 0x43000000; fdt resize 65536; booti 0x40200000 - 0x43000000",
+    "gate": "magic+VA_BITS=39+EFI_STUB!=y+quiescent+dedupe",
+    "kdire": "/home/host/kernel-trees/host-build/mainline-7.3",
+    "published_utc": "2026-09-26T02:56:21+00:00",
+    "tool": "scripts/publish-7.3-artifacts.py"
+  },
+  "repo": "https://github.com/nickyg666/orangepi-zero3w-7.3-artifacts/tree/main/builds/20260926-025605-5777a4bf",
+  "size": 41707528,
+  "va_bits": "39"
+}
